@@ -3,19 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1{
-  width: 100%;
-  font-size: 5vw;
-  font-weight: 900;
-  color: goldenrod;
-  text-align: center;
-}
-a{
-  width: 20%;
-  font-size: 5vw;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: green;
+.container{
+  max-width: 30vw;
+  height: 100vh;
   margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+img{
+  position: absolute;
+  top: -11%;
+  left: -8%;
+  width: 115%;
+  height: 125vh;
+  z-index: -1;
+}
+.name p:nth-child(1){
+  position: absolute;
+  top: 1%;
+  left: 43%;
+  font-size: 5vw;
+}
+.name p:nth-child(2){
+  position: absolute;
+  top: 5%;
+  left: 47%;
+  font-size: 4vw;
 }
